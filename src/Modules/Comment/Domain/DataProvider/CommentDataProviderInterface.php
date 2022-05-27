@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Domain\DataProvider;
+namespace ProjectName\Comment\Domain\DataProvider;
 
 use Core\Application\Dto\PaginationDto;
 

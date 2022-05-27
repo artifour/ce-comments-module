@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Application\Parser;
+namespace ProjectName\Comment\Application\Parser;
 
 use yii\helpers\Html;
 

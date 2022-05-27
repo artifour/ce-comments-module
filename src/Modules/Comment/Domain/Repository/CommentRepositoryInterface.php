@@ -1,9 +1,9 @@
 <?php
 
-namespace Deti123\Comment\Domain\Repository;
+namespace ProjectName\Comment\Domain\Repository;
 
 use Core\Domain\Entity\EntityInterface;
-use Deti123\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\Entity\Comment;
 
 interface CommentRepositoryInterface
 {

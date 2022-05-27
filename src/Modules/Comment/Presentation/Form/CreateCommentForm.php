@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Presentation\Form;
+namespace ProjectName\Comment\Presentation\Form;
 
 use Codeception\Util\JsonType;
 use Core\Infrastructure\Form\BaseForm;

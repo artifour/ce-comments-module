@@ -1,9 +1,9 @@
 <?php
 
-namespace Deti123\Comment\Infrastructure\Command;
+namespace ProjectName\Comment\Infrastructure\Command;
 
-use Deti123\Comment\Domain\Command\UpdateCommentContentCommandInterface;
-use Deti123\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\Command\UpdateCommentContentCommandInterface;
+use ProjectName\Comment\Domain\Entity\Comment;
 use Yii;
 
 class UpdateCommentContentCommand implements UpdateCommentContentCommandInterface

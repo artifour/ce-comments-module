@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Domain\ValueObject;
+namespace ProjectName\Comment\Domain\ValueObject;
 
 class CommentEntity
 {

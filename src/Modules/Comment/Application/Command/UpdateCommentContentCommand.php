@@ -1,13 +1,13 @@
 <?php
 
-namespace Deti123\Comment\Application\Command;
+namespace ProjectName\Comment\Application\Command;
 
 use Core\Application\Exception\ForbiddenException;
 use Core\Application\Exception\UnauthorizedException;
 use Core\Domain\Service\UserServiceInterface;
-use Deti123\Comment\Domain\Command\UpdateCommentContentCommandInterface;
-use Deti123\Comment\Domain\Repository\CommentRepositoryInterface;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Domain\Command\UpdateCommentContentCommandInterface;
+use ProjectName\Comment\Domain\Repository\CommentRepositoryInterface;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 
 class UpdateCommentContentCommand
 {

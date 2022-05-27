@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Presentation\Form;
+namespace ProjectName\Comment\Presentation\Form;
 
 use Core\Infrastructure\Form\BaseForm;
 

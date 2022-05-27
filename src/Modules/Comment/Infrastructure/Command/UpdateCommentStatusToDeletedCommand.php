@@ -1,10 +1,10 @@
 <?php
 
-namespace Deti123\Comment\Infrastructure\Command;
+namespace ProjectName\Comment\Infrastructure\Command;
 
-use Deti123\Comment\Domain\Command\UpdateCommentStatusToDeletedCommandInterface;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Domain\Command\UpdateCommentStatusToDeletedCommandInterface;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 use Yii;
 
 class UpdateCommentStatusToDeletedCommand implements UpdateCommentStatusToDeletedCommandInterface

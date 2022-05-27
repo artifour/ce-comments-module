@@ -1,10 +1,10 @@
 <?php
 
-namespace Deti123\Comment\Application\Dto;
+namespace ProjectName\Comment\Application\Dto;
 
 use Core\Application\Dto\LinkDto;
 use Core\Application\ValueObject\TimePassed;
-use Deti123\Comment\Application\ValueObject\CommentFilter;
+use ProjectName\Comment\Application\ValueObject\CommentFilter;
 use JsonSerializable;
 
 class CommentNodeDto implements JsonSerializable

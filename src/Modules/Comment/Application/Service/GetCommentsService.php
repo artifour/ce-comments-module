@@ -1,15 +1,15 @@
 <?php
 
-namespace Deti123\Comment\Application\Service;
+namespace ProjectName\Comment\Application\Service;
 
 use Core\Application\Dto\PaginationDto;
 use Core\Domain\Service\UserServiceInterface;
-use Deti123\Comment\Application\Dto\CommentNodeDto;
-use Deti123\Comment\Application\Assembler\CommentAssembler;
-use Deti123\Comment\Application\ValueObject\CommentFilter;
-use Deti123\Comment\Domain\DataProvider\CommentDataProviderInterface;
-use Deti123\Comment\Domain\Factory\CommentFactoryInterface;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Application\Dto\CommentNodeDto;
+use ProjectName\Comment\Application\Assembler\CommentAssembler;
+use ProjectName\Comment\Application\ValueObject\CommentFilter;
+use ProjectName\Comment\Domain\DataProvider\CommentDataProviderInterface;
+use ProjectName\Comment\Domain\Factory\CommentFactoryInterface;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 
 class GetCommentsService
 {

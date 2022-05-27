@@ -1,13 +1,13 @@
 <?php
 
-namespace Deti123\Comment\Application\Assembler;
+namespace ProjectName\Comment\Application\Assembler;
 
 use Core\Application\Dto\LinkDto;
 use Core\Application\ValueObject\TimePassed;
-use Deti123\Comment\Application\Dto\CommentNodeDto;
-use Deti123\Comment\Application\Parser\CommentContentParser;
-use Deti123\Comment\Application\ValueObject\RabbitAvatarSVG;
-use Deti123\Comment\Domain\Aggregate\CommentRoot;
+use ProjectName\Comment\Application\Dto\CommentNodeDto;
+use ProjectName\Comment\Application\Parser\CommentContentParser;
+use ProjectName\Comment\Application\ValueObject\RabbitAvatarSVG;
+use ProjectName\Comment\Domain\Aggregate\CommentRoot;
 
 class CommentAssembler
 {

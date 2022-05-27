@@ -1,11 +1,11 @@
 <?php
 
-namespace Deti123\Comment\Domain\Entity;
+namespace ProjectName\Comment\Domain\Entity;
 
 use Core\Domain\Entity\EntityInterface;
-use Deti123\Comment\Domain\ValueObject\CommentEntity;
-use Deti123\Comment\Domain\ValueObject\CommentRelatedTo;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Domain\ValueObject\CommentEntity;
+use ProjectName\Comment\Domain\ValueObject\CommentRelatedTo;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 
 class Comment implements EntityInterface
 {

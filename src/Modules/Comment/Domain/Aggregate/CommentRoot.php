@@ -1,10 +1,10 @@
 <?php
 
-namespace Deti123\Comment\Domain\Aggregate;
+namespace ProjectName\Comment\Domain\Aggregate;
 
 use Core\Domain\Aggregate\BaseAggregate;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\User\Domain\Entity\User;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\User\Domain\Entity\User;
 
 /**
  * @property-read int id

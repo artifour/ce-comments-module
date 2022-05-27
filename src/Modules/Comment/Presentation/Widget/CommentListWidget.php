@@ -1,10 +1,10 @@
 <?php
 
-namespace Deti123\Comment\Presentation\Widget;
+namespace ProjectName\Comment\Presentation\Widget;
 
 use Core\Application\Dto\PaginationDto;
 use Core\Infrastructure\Widget\BaseWidget;
-use Deti123\Comment\Application\Dto\CommentNodeDto;
+use ProjectName\Comment\Application\Dto\CommentNodeDto;
 
 class CommentListWidget extends BaseWidget
 {
@@ -25,7 +25,7 @@ class CommentListWidget extends BaseWidget
      */
     public function getViewPath(): string
     {
-        return "@Deti123/Comment/View/Widget";
+        return "@ProjectName/Comment/View/Widget";
     }
 
     /**

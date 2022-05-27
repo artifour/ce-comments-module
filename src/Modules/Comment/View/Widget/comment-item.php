@@ -1,8 +1,8 @@
 <?php
 
 use Core\Application\Dto\LinkDto;
-use Deti123\Comment\Application\Dto\CommentNodeDto;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Application\Dto\CommentNodeDto;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 use yii\helpers\Html;
 use yii\web\View;
 

@@ -1,7 +1,7 @@
 <?php
 
-use Deti123\Comment\Application\Validator\CommentValidator;
-use Deti123\Comment\Application\ValueObject\CommentUsername;
+use ProjectName\Comment\Application\Validator\CommentValidator;
+use ProjectName\Comment\Application\ValueObject\CommentUsername;
 use yii\helpers\Html;
 use yii\web\View;
 

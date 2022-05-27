@@ -1,18 +1,18 @@
 <?php
 
-namespace Deti123\Comment\Presentation\Controller;
+namespace ProjectName\Comment\Presentation\Controller;
 
 use Core\Application\Assembler\PaginationQueryAssemblerInterface;
 use Core\Infrastructure\Controller\BaseApiController;
-use Deti123\Comment\Application\Command\ApproveCommentCommand;
-use Deti123\Comment\Application\Service\CreateCommentService;
-use Deti123\Comment\Application\Command\DeleteCommentCommand;
-use Deti123\Comment\Application\Service\GetCommentsService;
-use Deti123\Comment\Application\Command\UpdateCommentContentCommand;
-use Deti123\Comment\Presentation\Form\CreateCommentForm;
-use Deti123\Comment\Presentation\Form\GetCommentsForm;
-use Deti123\Comment\Presentation\Widget\CommentListWidget;
-use Deti123\Toastr\Application\Builder\ToastrResponseBuilder;
+use ProjectName\Comment\Application\Command\ApproveCommentCommand;
+use ProjectName\Comment\Application\Service\CreateCommentService;
+use ProjectName\Comment\Application\Command\DeleteCommentCommand;
+use ProjectName\Comment\Application\Service\GetCommentsService;
+use ProjectName\Comment\Application\Command\UpdateCommentContentCommand;
+use ProjectName\Comment\Presentation\Form\CreateCommentForm;
+use ProjectName\Comment\Presentation\Form\GetCommentsForm;
+use ProjectName\Comment\Presentation\Widget\CommentListWidget;
+use ProjectName\Toastr\Application\Builder\ToastrResponseBuilder;
 
 class CommentApiController extends BaseApiController
 {

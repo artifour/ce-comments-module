@@ -1,22 +1,22 @@
 <?php
 
-namespace Deti123\Comment\Application\Service;
+namespace ProjectName\Comment\Application\Service;
 
 use Core\Application\Contract\RequestInterface;
 use Core\Application\Exception\ValidationException;
 use Core\Domain\Exception\NotSavedException;
 use Core\Domain\Service\UserServiceInterface;
-use Deti123\Comment\Application\Assembler\CommentAssembler;
-use Deti123\Comment\Application\Dto\CommentNodeDto;
-use Deti123\Comment\Application\Exception\ParentCommentNotFoundHttpException;
-use Deti123\Comment\Application\Exception\SpamCommentException;
-use Deti123\Comment\Application\Guard\CommentSpamGuard;
-use Deti123\Comment\Application\Validator\CommentValidator;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\Comment\Domain\Factory\CommentFactoryInterface;
-use Deti123\Comment\Domain\Repository\CommentRepositoryInterface;
-use Deti123\Comment\Domain\ValueObject\CommentRelatedTo;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Application\Assembler\CommentAssembler;
+use ProjectName\Comment\Application\Dto\CommentNodeDto;
+use ProjectName\Comment\Application\Exception\ParentCommentNotFoundHttpException;
+use ProjectName\Comment\Application\Exception\SpamCommentException;
+use ProjectName\Comment\Application\Guard\CommentSpamGuard;
+use ProjectName\Comment\Application\Validator\CommentValidator;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\Factory\CommentFactoryInterface;
+use ProjectName\Comment\Domain\Repository\CommentRepositoryInterface;
+use ProjectName\Comment\Domain\ValueObject\CommentRelatedTo;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 
 class CreateCommentService
 {

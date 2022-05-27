@@ -1,16 +1,16 @@
 <?php
 
-namespace Deti123\Comment\Application\Guard;
+namespace ProjectName\Comment\Application\Guard;
 
 use Core\Application\Builder\UrlBuilder;
 use Core\Domain\Service\UserServiceInterface;
-use Deti123\Comment\Application\Exception\DuplicateCommentException;
-use Deti123\Comment\Application\Exception\SendingCommentsTooOftenException;
-use Deti123\Comment\Application\Exception\SpamCommentException;
-use Deti123\Comment\Application\ValueObject\CommentSpamValueThreshold;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\Comment\Domain\Repository\CommentRepositoryInterface;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Application\Exception\DuplicateCommentException;
+use ProjectName\Comment\Application\Exception\SendingCommentsTooOftenException;
+use ProjectName\Comment\Application\Exception\SpamCommentException;
+use ProjectName\Comment\Application\ValueObject\CommentSpamValueThreshold;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\Repository\CommentRepositoryInterface;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 
 class CommentSpamGuard
 {

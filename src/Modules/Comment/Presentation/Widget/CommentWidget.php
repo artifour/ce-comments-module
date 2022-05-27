@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Presentation\Widget;
+namespace ProjectName\Comment\Presentation\Widget;
 
 use Core\Infrastructure\Widget\BaseWidget;
 
@@ -23,7 +23,7 @@ class CommentWidget extends BaseWidget
      */
     public function getViewPath(): string
     {
-        return "@Deti123/Comment/View/Widget";
+        return "@ProjectName/Comment/View/Widget";
     }
 
     /**

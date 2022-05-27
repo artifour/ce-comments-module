@@ -1,12 +1,12 @@
 <?php
 
-namespace Deti123\Comment\Infrastructure\Repository;
+namespace ProjectName\Comment\Infrastructure\Repository;
 
 use Core\Infrastructure\Builder\QueryBuilder;
 use Core\Infrastructure\Repository\BaseRepository;
-use Deti123\Comment\Infrastructure\Builder\CommentQueryBuilder;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\Comment\Domain\Repository\CommentRepositoryInterface;
+use ProjectName\Comment\Infrastructure\Builder\CommentQueryBuilder;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\Repository\CommentRepositoryInterface;
 
 class CommentRepository extends BaseRepository implements CommentRepositoryInterface
 {

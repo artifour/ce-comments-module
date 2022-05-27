@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Domain\Command;
+namespace ProjectName\Comment\Domain\Command;
 
 interface UpdateCommentStatusCommandInterface
 {

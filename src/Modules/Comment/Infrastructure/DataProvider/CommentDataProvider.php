@@ -1,13 +1,13 @@
 <?php
 
-namespace Deti123\Comment\Infrastructure\DataProvider;
+namespace ProjectName\Comment\Infrastructure\DataProvider;
 
 use Core\Application\Dto\PaginationDto;
 use Core\Infrastructure\Builder\QueryBuilder;
-use Deti123\Comment\Domain\DataProvider\CommentDataProviderInterface;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
-use Deti123\Comment\Infrastructure\Builder\CommentQueryBuilder;
+use ProjectName\Comment\Domain\DataProvider\CommentDataProviderInterface;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Infrastructure\Builder\CommentQueryBuilder;
 
 class CommentDataProvider implements CommentDataProviderInterface
 {

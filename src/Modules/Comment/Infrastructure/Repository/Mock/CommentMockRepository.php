@@ -1,16 +1,16 @@
 <?php
 
-namespace Deti123\Comment\Infrastructure\Repository\Mock;
+namespace ProjectName\Comment\Infrastructure\Repository\Mock;
 
 use Core\Domain\Repository\BaseMockRepository;
-use Deti123\Comment\Domain\Entity\Comment;
-use Deti123\Comment\Domain\Repository\CommentRepositoryInterface;
-use Deti123\Comment\Domain\ValueObject\CommentEntity;
-use Deti123\Comment\Domain\ValueObject\CommentRelatedTo;
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
-use Deti123\User\Domain\Entity\User;
-use Deti123\User\Domain\Repository\UserRepositoryInterface;
-use Deti123\User\Infrastructure\Repository\Mock\UserMockRepository;
+use ProjectName\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Domain\Repository\CommentRepositoryInterface;
+use ProjectName\Comment\Domain\ValueObject\CommentEntity;
+use ProjectName\Comment\Domain\ValueObject\CommentRelatedTo;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\User\Domain\Entity\User;
+use ProjectName\User\Domain\Repository\UserRepositoryInterface;
+use ProjectName\User\Infrastructure\Repository\Mock\UserMockRepository;
 use yii\helpers\ArrayHelper;
 
 class CommentMockRepository extends BaseMockRepository implements CommentRepositoryInterface

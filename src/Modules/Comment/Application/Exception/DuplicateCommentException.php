@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Application\Exception;
+namespace ProjectName\Comment\Application\Exception;
 
 use Core\Application\Exception\ValidationException;
 

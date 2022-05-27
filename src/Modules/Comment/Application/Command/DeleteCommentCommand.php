@@ -1,12 +1,12 @@
 <?php
 
-namespace Deti123\Comment\Application\Command;
+namespace ProjectName\Comment\Application\Command;
 
 use Core\Application\Exception\ForbiddenException;
 use Core\Application\Exception\UnauthorizedException;
 use Core\Domain\Service\UserServiceInterface;
-use Deti123\Comment\Domain\Command\UpdateCommentStatusToDeletedCommandInterface;
-use Deti123\Comment\Domain\Repository\CommentRepositoryInterface;
+use ProjectName\Comment\Domain\Command\UpdateCommentStatusToDeletedCommandInterface;
+use ProjectName\Comment\Domain\Repository\CommentRepositoryInterface;
 
 class DeleteCommentCommand
 {

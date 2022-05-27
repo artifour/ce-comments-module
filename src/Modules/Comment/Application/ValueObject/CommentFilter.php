@@ -1,8 +1,8 @@
 <?php
 
-namespace Deti123\Comment\Application\ValueObject;
+namespace ProjectName\Comment\Application\ValueObject;
 
-use Deti123\Comment\Domain\ValueObject\CommentStatus;
+use ProjectName\Comment\Domain\ValueObject\CommentStatus;
 
 class CommentFilter
 {

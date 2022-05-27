@@ -1,11 +1,11 @@
 <?php
 
-namespace Deti123\Comment\Application\Validator;
+namespace ProjectName\Comment\Application\Validator;
 
 use Core\Application\Exception\ValidationException;
 use Core\Domain\Service\UserServiceInterface;
-use Deti123\Comment\Application\ValueObject\CommentUsername;
-use Deti123\Comment\Domain\Entity\Comment;
+use ProjectName\Comment\Application\ValueObject\CommentUsername;
+use ProjectName\Comment\Domain\Entity\Comment;
 
 class CommentValidator
 {

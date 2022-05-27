@@ -1,7 +1,7 @@
 <?php
 
 use Core\Application\Dto\PaginationDto;
-use Deti123\Comment\Application\Dto\CommentNodeDto;
+use ProjectName\Comment\Application\Dto\CommentNodeDto;
 use yii\web\View;
 
 /**

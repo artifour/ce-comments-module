@@ -1,6 +1,6 @@
 <?php
 
-namespace Deti123\Comment\Application\ValueObject;
+namespace ProjectName\Comment\Application\ValueObject;
 
 class CommentSpamValueThreshold
 {
